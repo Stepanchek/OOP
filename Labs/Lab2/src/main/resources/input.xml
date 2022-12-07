@@ -1,0 +1,69 @@
+<Orangery xmlns="lab2classes">
+    <Flower id="0">
+        <name>Lily</name>
+        <soil>GROUND</soil>
+        <origin>Europe</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Yellow</leavesColor>
+            <averageSize>35.7</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>22</temperature>
+            <isLightLoving>true</isLightLoving>
+            <waterAmount>5500</waterAmount>
+        </growingTips>
+        <multiplying>SEEDS</multiplying>
+    </Flower>
+
+    <Flower id="1">
+        <name>Orchid</name>
+        <soil>GROUND</soil>
+        <origin>Japan</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Purple</leavesColor>
+            <averageSize>50</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>10</temperature>
+            <isLightLoving>false</isLightLoving>
+            <waterAmount>1000</waterAmount>
+        </growingTips>
+        <multiplying>SEEDS</multiplying>
+    </Flower>
+
+    <Flower id="2">
+        <name>Viola</name>
+        <soil>SOD_PODZOLIC</soil>
+        <origin>Italy</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Violet</leavesColor>
+            <averageSize>20</averageSize>
+        </visualParameters>
+        <growingTips>
+            <waterAmount>4000</waterAmount>
+            <temperature>20</temperature>
+            <isLightLoving>true</isLightLoving>
+        </growingTips>
+        <multiplying>LEAVES</multiplying>
+    </Flower>
+
+    <Flower id="3">
+        <name>Hydrangea</name>
+        <soil>GROUND</soil>
+        <origin>Asia</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Blue</leavesColor>
+            <averageSize>45</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>50</temperature>
+            <isLightLoving>false</isLightLoving>
+            <waterAmount>3000</waterAmount>
+        </growingTips>
+        <multiplying>CUTTING</multiplying>
+    </Flower>
+</Orangery>
